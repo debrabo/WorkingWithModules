@@ -20,4 +20,4 @@ function sessionTemplate(sessions) {
 
 }
 
-export {sessionTemplate as default, errorMessage};
+export {sessionTemplate, errorMessage};
