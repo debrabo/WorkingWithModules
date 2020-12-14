@@ -15,4 +15,4 @@ function getSessions() {
     })
 }
 
-export {getSessions};
+export {getSessions as default, sessionURL};  // Only one thing to export as default, with 'import sessions from './sessionRepository.js';
